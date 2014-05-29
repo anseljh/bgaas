@@ -60,6 +60,7 @@ The repository is on GitHub at: https://github.com/anseljh/bgaas
 
 To-Do List
 ----------
+* [x] Improve repository structure (see [Open Sourcing a Python Project the Right Way](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/))
 * [ ] Parse Consolidated Screening List data file ([instructions](http://export.gov/static/cl_downloading_instructions_08102011_gh_Latest_eg_main_040971.pdf))
 * [ ] Document URLs of main raw list data
 * [ ] Document update frequency of each main list
