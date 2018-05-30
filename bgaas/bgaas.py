@@ -95,7 +95,7 @@ def update_list(args, list_):
         content_type = r.headers.get('content-type')
         content = r.content
         log.debug("Received %.2f MiB" % (size / 1024 / 1024))
-        assert content_type == 'text/plain', "content-type must be 'text/plain', but got '%s' instead." % content_type
+        assert content_type in ('text/plain', 'text/csv'), "content-type must be 'text/plain', but got '%s' instead." % content_type
         log.debug("Writing output for CSL to %s" % output_fn)
         output_f = open(output_fn, 'wb')
         output_f.write(content)
