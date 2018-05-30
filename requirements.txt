@@ -1,5 +1,0 @@
-csvkit
-argparse
-requests
-logging
-wsgiref==0.1.2
